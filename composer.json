@@ -1,0 +1,30 @@
+{
+    "name": "mouf/mvc.graphqlite",
+    "description": "A binding package between thecodingmachine/graphqlite and the Mouf framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com"
+        }
+    ],
+    "keywords" : [
+        "ORM",
+        "mouf",
+        "graphql"
+    ],
+    "type" : "mouf-library",
+    "require": {
+        "thecodingmachine/graphqlite": "^3.0",
+        "mouf/mouf": "^2.0",
+        "mouf/security.userservice": "^2 | ^3",
+        "mouf/security.rightsservice": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mouf\\GraphQLite\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
