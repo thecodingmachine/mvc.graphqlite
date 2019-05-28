@@ -15,7 +15,7 @@
     ],
     "type" : "mouf-library",
     "require": {
-        "thecodingmachine/graphqlite": "^3.0",
+        "thecodingmachine/graphqlite": "^4.0",
         "mouf/mouf": "^2.0",
         "mouf/security.userservice": "^2 | ^3",
         "mouf/security.rightsservice": "^2"
@@ -33,7 +33,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "3.0.x-dev"
+            "dev-master": "4.0.x-dev"
         }
     },
     "minimum-stability": "dev",
