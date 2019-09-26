@@ -15,6 +15,7 @@
     ],
     "type" : "mouf-library",
     "require": {
+        "php": ">=7.2",
         "thecodingmachine/graphqlite": "^4.0",
         "mouf/mouf": "^2.0",
         "mouf/security.userservice": "^2 | ^3",
