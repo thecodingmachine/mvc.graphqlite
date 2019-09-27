@@ -30,4 +30,13 @@ class AuthenticationServiceBridge implements AuthenticationServiceInterface
     {
         return $this->userService->isLogged();
     }
+
+    /**
+     * Returns an object representing the current logged user.
+     * Can return null if the user is not logged.
+     */
+    public function getUser(): ?object
+    {
+        return $this->userService->getLoggedUser();
+    }
 }
